@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ProjectCard } from "@/components/ProjectCard";
 import { ProjectVisual } from "@/components/ProjectVisual";
+import { PharmaLogos, DigitalHealthLogos } from "@/components/CompanyLogos";
 
 const projects = [
   {
@@ -148,6 +149,117 @@ export default function Home() {
               and subspecialty care.
             </p>
           </div>
+        </div>
+      </section>
+
+      <hr className="rule max-w-[1080px] mx-auto" />
+
+      {/* Areas of Focus */}
+      <section className="max-w-[1080px] mx-auto px-4 sm:px-8 py-10 sm:py-14">
+        <div className="section-label mb-8">Areas of Focus</div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+          {/* Partnering with Pharma */}
+          <div className="card p-5 sm:p-6 flex flex-col">
+            <h3 className="font-headline text-lg text-foreground mb-2">Partnering with Pharma</h3>
+            <p className="font-serif text-body text-[0.8125rem] leading-relaxed mb-4">
+              Structuring partnerships between life science companies and innovative healthcare startups.
+            </p>
+            <div className="space-y-4">
+              <div>
+                <p className="font-sans text-[0.625rem] font-semibold uppercase tracking-[0.12em] text-muted mb-2">Life Sciences</p>
+                <PharmaLogos />
+              </div>
+              <div>
+                <p className="font-sans text-[0.625rem] font-semibold uppercase tracking-[0.12em] text-muted mb-2">Digital Health &amp; Virtual Care</p>
+                <DigitalHealthLogos />
+              </div>
+            </div>
+          </div>
+
+          {/* Data Products */}
+          <div className="card p-5 sm:p-6 flex flex-col">
+            <h3 className="font-headline text-lg text-foreground mb-2">Data Products (now with AI)</h3>
+            <p className="font-serif text-body text-[0.8125rem] leading-relaxed mb-4">
+              Designing and building data products that turn data into patient insight and proactive care.
+            </p>
+            <div className="space-y-3">
+              <div className="border border-rule rounded-sm overflow-hidden">
+                <Image
+                  src="/propeller-app.png"
+                  alt="Propeller Health patient app — daily asthma forecast and connected inhaler"
+                  width={851}
+                  height={481}
+                  className="w-full h-24 object-cover"
+                />
+                <p className="font-sans text-[0.625rem] text-muted px-2 py-1.5">Propeller Health — Patient App</p>
+              </div>
+              <div className="border border-rule rounded-sm overflow-hidden">
+                <Image
+                  src="/physician-dashboard.png"
+                  alt="Physician dashboard — patient vitals, lab results, and treatment management"
+                  width={1100}
+                  height={980}
+                  className="w-full h-24 object-cover object-top"
+                />
+                <p className="font-sans text-[0.625rem] text-muted px-2 py-1.5">Marley Medical — Physician Dashboard</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Go-to-Market Strategy */}
+          <div className="card p-5 sm:p-6 flex flex-col">
+            <h3 className="font-headline text-lg text-foreground mb-2">Go-to-Market Strategy</h3>
+            <p className="font-serif text-body text-[0.8125rem] leading-relaxed mb-4">
+              The hard part in healthcare innovation is usually how to get paid. I enjoy the complexity of GTM.
+            </p>
+            <div className="flex justify-center">
+              <svg viewBox="0 0 240 224" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full max-w-[200px] h-auto">
+                {/* Center hub */}
+                <circle cx="120" cy="120" r="24" fill="var(--accent)" fillOpacity="0.08" stroke="var(--accent)" strokeWidth="1.5" />
+                <text x="120" y="117" fontSize="8" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="700" fill="var(--accent)" textAnchor="middle">Your</text>
+                <text x="120" y="127" fontSize="8" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="700" fill="var(--accent)" textAnchor="middle">Product</text>
+
+                {/* Payers — top (0°) */}
+                <rect x="90" y="23" width="60" height="26" rx="2" fill="var(--teal)" fillOpacity="0.08" stroke="var(--teal)" strokeWidth="1" />
+                <text x="120" y="40" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--teal)" textAnchor="middle">Payers</text>
+                <line x1="120" y1="96" x2="120" y2="52" stroke="var(--rule)" strokeWidth="1.5" markerEnd="url(#arrowGTM)" />
+
+                {/* Health Systems — upper right (60°) */}
+                <rect x="163" y="64" width="60" height="28" rx="2" fill="var(--teal)" fillOpacity="0.08" stroke="var(--teal)" strokeWidth="1" />
+                <text x="193" y="75" fontSize="8" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--teal)" textAnchor="middle">Health</text>
+                <text x="193" y="85" fontSize="8" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--teal)" textAnchor="middle">Systems</text>
+                <line x1="141" y1="108" x2="166" y2="94" stroke="var(--rule)" strokeWidth="1.5" markerEnd="url(#arrowGTM)" />
+
+                {/* Pharma — lower right (120°) */}
+                <rect x="163" y="149" width="60" height="26" rx="2" fill="var(--teal)" fillOpacity="0.08" stroke="var(--teal)" strokeWidth="1" />
+                <text x="193" y="166" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--teal)" textAnchor="middle">Pharma</text>
+                <line x1="141" y1="132" x2="168" y2="147" stroke="var(--rule)" strokeWidth="1.5" markerEnd="url(#arrowGTM)" />
+
+                {/* Employers — bottom (180°) */}
+                <rect x="90" y="191" width="60" height="26" rx="2" fill="var(--foreground)" fillOpacity="0.04" stroke="var(--rule)" strokeWidth="1" />
+                <text x="120" y="208" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--body)" textAnchor="middle">Employers</text>
+                <line x1="120" y1="144" x2="120" y2="188" stroke="var(--rule)" strokeWidth="1.5" markerEnd="url(#arrowGTM)" />
+
+                {/* DTC — lower left (240°) */}
+                <rect x="17" y="149" width="60" height="26" rx="2" fill="var(--foreground)" fillOpacity="0.04" stroke="var(--rule)" strokeWidth="1" />
+                <text x="47" y="166" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--body)" textAnchor="middle">DTC</text>
+                <line x1="99" y1="132" x2="72" y2="147" stroke="var(--rule)" strokeWidth="1.5" markerEnd="url(#arrowGTM)" />
+
+                {/* Gov/CMS — upper left (300°) */}
+                <rect x="17" y="64" width="60" height="28" rx="2" fill="var(--foreground)" fillOpacity="0.04" stroke="var(--rule)" strokeWidth="1" />
+                <text x="47" y="82" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--body)" textAnchor="middle">Gov/CMS</text>
+                <line x1="99" y1="108" x2="74" y2="94" stroke="var(--rule)" strokeWidth="1.5" markerEnd="url(#arrowGTM)" />
+
+                <defs>
+                  <marker id="arrowGTM" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+                    <path d="M0 0L7 2.5L0 5" fill="var(--rule)" />
+                  </marker>
+                </defs>
+              </svg>
+            </div>
+          </div>
+
         </div>
       </section>
 
