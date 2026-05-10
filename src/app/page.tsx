@@ -237,18 +237,18 @@ export default function Home() {
                 <line x1="141" y1="132" x2="168" y2="147" stroke="var(--rule)" strokeWidth="1.5" markerEnd="url(#arrowGTM)" />
 
                 {/* Employers — bottom (180°) */}
-                <rect x="90" y="191" width="60" height="26" rx="2" fill="var(--foreground)" fillOpacity="0.04" stroke="var(--rule)" strokeWidth="1" />
-                <text x="120" y="208" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--body)" textAnchor="middle">Employers</text>
+                <rect x="90" y="191" width="60" height="26" rx="2" fill="var(--teal)" fillOpacity="0.08" stroke="var(--teal)" strokeWidth="1" />
+                <text x="120" y="208" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--teal)" textAnchor="middle">Employers</text>
                 <line x1="120" y1="144" x2="120" y2="188" stroke="var(--rule)" strokeWidth="1.5" markerEnd="url(#arrowGTM)" />
 
                 {/* DTC — lower left (240°) */}
-                <rect x="17" y="149" width="60" height="26" rx="2" fill="var(--foreground)" fillOpacity="0.04" stroke="var(--rule)" strokeWidth="1" />
-                <text x="47" y="166" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--body)" textAnchor="middle">DTC</text>
+                <rect x="17" y="149" width="60" height="26" rx="2" fill="var(--teal)" fillOpacity="0.08" stroke="var(--teal)" strokeWidth="1" />
+                <text x="47" y="166" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--teal)" textAnchor="middle">DTC</text>
                 <line x1="99" y1="132" x2="72" y2="147" stroke="var(--rule)" strokeWidth="1.5" markerEnd="url(#arrowGTM)" />
 
                 {/* Gov/CMS — upper left (300°) */}
-                <rect x="17" y="64" width="60" height="28" rx="2" fill="var(--foreground)" fillOpacity="0.04" stroke="var(--rule)" strokeWidth="1" />
-                <text x="47" y="82" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--body)" textAnchor="middle">Gov/CMS</text>
+                <rect x="17" y="64" width="60" height="28" rx="2" fill="var(--teal)" fillOpacity="0.08" stroke="var(--teal)" strokeWidth="1" />
+                <text x="47" y="82" fontSize="9" fontFamily="var(--font-dm-sans), sans-serif" fontWeight="600" fill="var(--teal)" textAnchor="middle">Gov/CMS</text>
                 <line x1="99" y1="108" x2="74" y2="94" stroke="var(--rule)" strokeWidth="1.5" markerEnd="url(#arrowGTM)" />
 
                 <defs>

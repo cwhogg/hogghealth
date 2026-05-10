@@ -33,11 +33,11 @@ export function ProjectCard({
       className="card-hover block group animate-fade-in-up"
       style={{ animationDelay: `${index * 0.05}s` }}
     >
-      <div className={`flex flex-col ${visualFirst ? "md:flex-row" : "md:flex-row-reverse"}`}>
+      <div className={`flex flex-col-reverse ${visualFirst ? "md:flex-row" : "md:flex-row-reverse"}`}>
         {/* Visual panel */}
         {visual && (
           <div
-            className={`flex items-center justify-center p-5 sm:p-6 md:w-1/2 md:flex-shrink-0 border-b md:border-b-0 ${
+            className={`flex items-center justify-center p-5 sm:p-6 md:w-1/2 md:flex-shrink-0 border-t md:border-t-0 ${
               visualFirst ? "md:border-r" : "md:border-l"
             } border-rule-light bg-background/50`}
           >
