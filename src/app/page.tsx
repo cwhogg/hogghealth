@@ -136,7 +136,7 @@ export default function Home() {
             </p>
             <p className="font-serif text-body text-sm leading-relaxed max-w-2xl">
               Founder and operator in digital health and virtual care since
-              2011. Tried to make chronic disease management data-driven and
+              2011. Made chronic disease management data-driven and
               proactive at Marley Medical. Helped scale Propeller Health as
               COO, CCO and head of product through its acquisition by ResMed.
               Founded 100Plus, an early longevity company, in 2011 and sold
@@ -211,7 +211,7 @@ export default function Home() {
           <div className="card p-5 sm:p-6 flex flex-col">
             <h3 className="font-headline text-lg text-foreground mb-2">Go-to-Market Strategy</h3>
             <p className="font-serif text-body text-[0.8125rem] leading-relaxed mb-4">
-              The hard part in healthcare innovation is usually how to get paid. I enjoy the complexity of GTM.
+              Unravelling the complexity of healthcare GTM. Usually the hard part of healthcare innovation is how to get paid.
             </p>
             <div className="flex justify-center">
               <svg viewBox="0 0 240 224" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full max-w-[200px] h-auto">
