@@ -159,24 +159,6 @@ export default function Home() {
         <div className="section-label mb-8">Areas of Focus</div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-          {/* Partnering with Pharma */}
-          <div className="card p-5 sm:p-6 flex flex-col">
-            <h3 className="font-headline text-lg text-foreground mb-2">Partnering with Pharma</h3>
-            <p className="font-serif text-body text-[0.8125rem] leading-relaxed mb-4">
-              Structuring partnerships between life science companies and innovative healthcare startups.
-            </p>
-            <div className="space-y-4">
-              <div>
-                <p className="font-sans text-[0.625rem] font-semibold uppercase tracking-[0.12em] text-muted mb-2">Life Sciences</p>
-                <PharmaLogos />
-              </div>
-              <div>
-                <p className="font-sans text-[0.625rem] font-semibold uppercase tracking-[0.12em] text-muted mb-2">Digital Health &amp; Virtual Care</p>
-                <DigitalHealthLogos />
-              </div>
-            </div>
-          </div>
-
           {/* Data Products */}
           <div className="card p-5 sm:p-6 flex flex-col">
             <h3 className="font-headline text-lg text-foreground mb-2">Data Products (now with AI)</h3>
@@ -257,6 +239,24 @@ export default function Home() {
                   </marker>
                 </defs>
               </svg>
+            </div>
+          </div>
+
+          {/* Partnering with Pharma */}
+          <div className="card p-5 sm:p-6 flex flex-col">
+            <h3 className="font-headline text-lg text-foreground mb-2">Partnering with Pharma</h3>
+            <p className="font-serif text-body text-[0.8125rem] leading-relaxed mb-4">
+              Structuring partnerships between life science companies and innovative healthcare startups.
+            </p>
+            <div className="space-y-4">
+              <div>
+                <p className="font-sans text-[0.625rem] font-semibold uppercase tracking-[0.12em] text-muted mb-2">Life Sciences</p>
+                <PharmaLogos />
+              </div>
+              <div>
+                <p className="font-sans text-[0.625rem] font-semibold uppercase tracking-[0.12em] text-muted mb-2">Digital Health &amp; Virtual Care</p>
+                <DigitalHealthLogos />
+              </div>
             </div>
           </div>
 
