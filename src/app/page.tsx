@@ -97,7 +97,7 @@ const experience = [
     description: "Developed and executed life science commercial strategy and GTM. Negotiated and implemented DTP partnerships with LillyDirect and Eisai in Alzheimer's Disease and Biogen in Ataxia",
   },
   {
-    company: "Marley Medical",
+    company: "Marley Medical (Virtual Cardiometabolic Clinic)",
     role: "Co-founder & CEO",
     period: "2021 – 2024",
     description: "Virtual care and fee-for-service chronic disease management. Connected health and data-driven. Funded by a16z, CRV, Rock Health",

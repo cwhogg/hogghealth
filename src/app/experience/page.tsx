@@ -49,7 +49,7 @@ const experience = [
     ],
   },
   {
-    company: "Marley Medical",
+    company: "Marley Medical (Virtual Cardiometabolic Clinic)",
     roles: [
       {
         title: "Co-founder & CEO",
