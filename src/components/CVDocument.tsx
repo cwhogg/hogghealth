@@ -295,6 +295,13 @@ const styles = StyleSheet.create({
     color: color.teal,
     marginTop: 1,
   },
+  projectUrl: {
+    fontFamily: "DM Sans",
+    fontSize: 6.5,
+    color: color.accent,
+    marginTop: 1,
+    textDecoration: "none",
+  },
   footer: {
     position: "absolute",
     bottom: 16,
@@ -489,6 +496,9 @@ export function CVDocument() {
             <Text style={styles.projectTech}>
               {project.tech.join("  ·  ")}
             </Text>
+            <Link style={styles.projectUrl} src={project.url}>
+              {project.url.replace(/^https?:\/\//, "").replace(/\/$/, "")}
+            </Link>
           </View>
         ))}
 
