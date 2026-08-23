@@ -29,7 +29,7 @@ const experience = [
     ],
     location: "San Francisco Bay Area",
     description:
-      "Leading the design, development and implementation of the Zebra DTP Platform and programs. Zebra is an end-to-end Direct-to-Patient Platform that enables seamless patient journeys from Awareness to Activation to Care Delivery to Fulfillment. Working on multiple live and in-process programs in rare disease, insomnia, CV diseases and obesity.",
+      "Leading the design, development and implementation of the Zebra DTP Platform,  programs and partnership network. Zebra is an end-to-end Direct-to-Patient Platform that enables seamless patient journeys from Awareness to Activation to Care Delivery to Fulfillment. Working on multiple live and in-process programs in rare disease, insomnia, CV diseases and obesity.",
   },
   {
     company: "Synapticure",
