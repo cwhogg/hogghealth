@@ -81,7 +81,7 @@ const projects = [
 const experience = [
   {
     company: "HoggHealth Consulting",
-    role: "Fractional Product & GTM Leader",
+    role: "Fractional Product, GTM and DTP Leader",
     period: "2024 – Present",
     description: "Helping growth-stage companies with product, data, and GTM strategies. Currently focused on pharma DTP programs for patients with complex and rare diseases. Recent partnerships between manufacturers (Lilly, Eisai, Biogen, UCB) and virtual care providers (Synapticure, Heartbeat Health, LiverRight, AmplifyMD)",
   },

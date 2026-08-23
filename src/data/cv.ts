@@ -17,7 +17,7 @@ export const experience: Job[] = [
     company: "HoggHealth Consulting",
     roles: [
       {
-        title: "Fractional Product & GTM Leader",
+        title: "Fractional Product, GTM and DTP Leader",
         dates: "2024 – Present",
       },
     ],
