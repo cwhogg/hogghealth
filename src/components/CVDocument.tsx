@@ -56,6 +56,7 @@ const color = {
   accent: "#B91C1C",
   teal: "#0F766E",
   rule: "#D6D3D1",
+  headerBg: "#0F2A4A",
 };
 
 const styles = StyleSheet.create({
@@ -69,7 +70,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 40,
   },
   headerBand: {
-    backgroundColor: color.foreground,
+    backgroundColor: color.headerBg,
     marginHorizontal: -40,
     marginTop: -28,
     paddingHorizontal: 40,
