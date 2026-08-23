@@ -17,7 +17,7 @@ const experience = [
     ],
     location: "San Francisco Bay Area",
     description:
-      "Focused on pharma-funded DTP programs for patients with complex and rare diseases. Brokering partnerships between pharmaceutical manufacturers (Lilly, Eisai, Biogen, UCB) and virtual care providers (Synapticure, Heartbeat Health, LiverRight, AmplifyMD) to increase patient access to specialty and subspecialty care. Leading product, implementation and delivery for the Zebra DTP Platform. Building AI-powered healthcare tools independently.",
+      "Focused on designing and implementing Brand-led DTP programs for patients with complex and rare diseases, or with more common conditions such as insomnia or obesity. Brokering partnerships between pharmaceutical manufacturers (Lilly, Eisai, Biogen, UCB) and virtual care providers (Synapticure, Heartbeat Health, LiverRight, AmplifyMD) to increase patient access to specialty and subspecialty care. Leading product, implementation and delivery for the Zebra DTP Platform. Building AI-powered healthcare tools independently.",
   },
   {
     company: "ZS Associates",
