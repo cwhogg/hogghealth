@@ -32,7 +32,7 @@ const experience = [
       "Leading the design, development and implementation of the Zebra DTP Platform,  programs and partnership network. Zebra is an end-to-end Direct-to-Patient Platform that enables seamless patient journeys from Awareness to Activation to Care Delivery to Fulfillment. Working on multiple live and in-process programs in rare disease, insomnia, CV diseases and obesity. Built partnership network of virtual specialty care providers, referral management, performance marketing, fulfillment, BV/Price.",
   },
   {
-    company: "Synapticure (Virtual Neurology Specialty Group)",
+    company: "Synapticure (Virtual Neurology Specialty Clinic)",
     roles: [
       {
         title: "Fractional Commercial Lead",

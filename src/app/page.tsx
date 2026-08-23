@@ -91,7 +91,7 @@ const experience = [
     description: "Leading design, development, and implementation of the Zebra DTP Platform, an end-to-end Direct-to-Patient platform spanning Awareness, Activation, Care Delivery, and Fulfillment. Live and in-process programs in rare disease, insomnia, CV disease, and obesity",
   },
   {
-    company: "Synapticure (Virtual Neurology Specialty Group)",
+    company: "Synapticure (Virtual Neurology Specialty Clinic)",
     role: "Fractional Commercial Lead",
     period: "2024 – 2025",
     description: "Developed and executed life science commercial strategy and GTM. Negotiated and implemented DTP partnerships with LillyDirect and Eisai in Alzheimer's Disease and Biogen in Ataxia",
