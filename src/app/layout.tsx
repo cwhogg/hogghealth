@@ -3,6 +3,7 @@ import { Playfair_Display, Lora, Merriweather, DM_Sans } from "next/font/google"
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -46,6 +47,7 @@ export default function RootLayout({
       className={`${playfair.variable} ${lora.variable} ${merriweather.variable} ${dmSans.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <AnalyticsTracker />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
