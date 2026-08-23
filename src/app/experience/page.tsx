@@ -18,19 +18,22 @@ const experience = [
     location: "San Francisco Bay Area",
     description:
       "Focused on pharma-funded DTP programs for patients with complex and rare diseases. Brokering partnerships between pharmaceutical manufacturers (Lilly, Eisai, Biogen, UCB) and virtual care providers (Synapticure, Heartbeat Health, LiverRight, AmplifyMD) to increase patient access to specialty and subspecialty care. Building AI-powered healthcare tools independently.",
-    engagements: [
+  },
+  {
+    company: "Synapticure",
+    roles: [
       {
-        client: "Synapticure",
-        subhead: "Fractional Commercial Lead",
+        title: "Fractional Commercial Lead",
         dates: "2024 – 2025",
-        description:
-          "Developed and implemented new life science commercial strategy and executed GTM. Negotiated, signed, and implemented partnerships with:",
-        bullets: [
-          "LillyDirect for Direct-to-Patient program in Alzheimer's Disease + data project leading to publication",
-          "Eisai for Direct-to-Patient program in Alzheimer's Disease",
-          "Biogen for Direct-to-Patient program in Ataxia",
-        ],
       },
+    ],
+    location: "San Francisco Bay Area",
+    description:
+      "Developed and implemented new life science commercial strategy and executed GTM. Negotiated, signed, and implemented partnerships with:",
+    bullets: [
+      "LillyDirect for Direct-to-Patient program in Alzheimer's Disease + data project leading to publication",
+      "Eisai for Direct-to-Patient program in Alzheimer's Disease",
+      "Biogen for Direct-to-Patient program in Ataxia",
     ],
   },
   {
@@ -257,36 +260,17 @@ export default function ExperiencePage() {
                 {job.description}
               </p>
 
-              {job.engagements && (
-                <div className="mt-4 space-y-4">
-                  {job.engagements.map((eng, k) => (
-                    <div key={k} className="pl-4 border-l-2 border-rule/50">
-                      <div className="flex flex-col sm:flex-row sm:items-baseline sm:gap-3 mb-1">
-                        <h4 className="font-sans text-sm font-semibold text-foreground">
-                          {eng.client}
-                        </h4>
-                        <span className="font-sans text-xs text-muted">
-                          {eng.subhead} · {eng.dates}
-                        </span>
-                      </div>
-                      <p className="font-serif text-[0.8125rem] text-body leading-relaxed max-w-2xl mb-2">
-                        {eng.description}
-                      </p>
-                      {eng.bullets && (
-                        <ul className="list-disc list-outside pl-4 space-y-1">
-                          {eng.bullets.map((b, m) => (
-                            <li
-                              key={m}
-                              className="font-serif text-[0.8125rem] text-body leading-relaxed max-w-2xl"
-                            >
-                              {b}
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </div>
+              {job.bullets && (
+                <ul className="list-disc list-outside pl-4 mt-2 space-y-1">
+                  {job.bullets.map((b, m) => (
+                    <li
+                      key={m}
+                      className="font-serif text-[0.8125rem] text-body leading-relaxed max-w-2xl"
+                    >
+                      {b}
+                    </li>
                   ))}
-                </div>
+                </ul>
               )}
 
             </div>
