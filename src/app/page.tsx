@@ -148,7 +148,8 @@ export default function Home() {
             </p>
             <p className="font-serif text-body text-sm leading-relaxed max-w-2xl">
               Founder and operator in digital health and virtual care since
-              2011. Made chronic disease management data-driven and
+              2011, and pharma commercial strategy analyst before that. Made
+              chronic disease management data-driven and
               proactive at Marley Medical. Helped scale Propeller Health as
               COO, CCO and head of product through its acquisition by ResMed.
               Founded 100Plus, an early longevity company, in 2011 and sold
