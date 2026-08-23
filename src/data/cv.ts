@@ -290,7 +290,7 @@ export const projects: Project[] = [
     description:
       "A multi-agent AI pipeline that helps patients navigate the diagnostic odyssey for rare diseases. Input symptoms through a guided form and receive a prioritized differential grounded in a curated knowledge base of 7,000+ rare and orphan diseases. Built to reduce the average 5–7 year diagnostic delay by surfacing conditions that generalists might not consider, with supporting evidence and next-step recommendations. Early validation on the Phenopacket2Prompt benchmark (9,587 clinical vignettes) shows SecondLook matching Exomiser's diagnostic accuracy — without access to patient genetic data — and significantly outperforming frontier LLMs like o1-preview and GPT-4o used alone.",
     tech: ["Next.js", "GPT-4.6", "Claude", "MDX", "Radix UI"],
-    url: "https://secondlook.vercel.app/",
+    url: "https://secondlookdx.com/",
     date: "Jan 2026",
   },
   {

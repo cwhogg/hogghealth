@@ -23,7 +23,7 @@ const projects = [
     description:
       "A multi-agent AI pipeline that helps patients navigate the diagnostic odyssey for rare diseases. Input symptoms through a guided form and receive a prioritized differential grounded in a curated knowledge base of 7,000+ rare and orphan diseases.",
     tech: ["Next.js", "GPT-4.6", "Claude", "MDX", "Radix UI"],
-    url: "https://secondlook.vercel.app/",
+    url: "https://secondlookdx.com/",
     date: "Jan 2026",
   },
   {
