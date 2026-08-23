@@ -81,8 +81,20 @@ const experience = [
   {
     company: "HoggHealth Consulting",
     role: "Fractional Product & GTM Leader",
-    period: "2025 – Present",
+    period: "2024 – Present",
     description: "Helping growth-stage companies with product, data, and GTM strategies. Currently focused on pharma DTP programs for patients with complex and rare diseases. Recent partnerships between manufacturers (Lilly, Eisai, Biogen, UCB) and virtual care providers (Synapticure, Heartbeat Health, LiverRight, AmplifyMD)",
+  },
+  {
+    company: "ZS Associates",
+    role: "Zebra DTP Platform — Partnerships, Product and Delivery",
+    period: "2025 – Present",
+    description: "Leading design, development, and implementation of the Zebra DTP Platform, an end-to-end Direct-to-Patient platform spanning Awareness, Activation, Care Delivery, and Fulfillment. Live and in-process programs in rare disease, insomnia, CV disease, and obesity",
+  },
+  {
+    company: "Synapticure",
+    role: "Fractional Commercial Lead",
+    period: "2024 – 2025",
+    description: "Developed and executed life science commercial strategy and GTM. Negotiated and implemented DTP partnerships with LillyDirect and Eisai in Alzheimer's Disease and Biogen in Ataxia",
   },
   {
     company: "Marley Medical",
