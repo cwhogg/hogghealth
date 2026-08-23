@@ -136,9 +136,9 @@ export default function Home() {
           <Image
             src="/headshot.jpeg"
             alt="Chris Hogg"
-            width={160}
-            height={320}
-            className="rounded-sm object-cover w-[120px] h-auto sm:w-[160px] sm:self-stretch flex-shrink-0"
+            width={200}
+            height={257}
+            className="rounded-sm object-cover w-[140px] h-auto sm:w-[200px] aspect-[4/5] flex-shrink-0"
           />
           <div>
             <h1 className="font-headline text-[2rem] sm:text-[2.5rem] leading-tight text-foreground mb-2">
