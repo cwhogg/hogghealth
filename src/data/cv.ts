@@ -347,7 +347,7 @@ export const projects: Project[] = [
 
 export const bio = {
   name: "Chris Hogg",
-  tagline: "Healthcare founder, operator, product and data geek, now building with AI",
+  tagline: "Healthcare founder, operator, product, partnerships and data geek, now building  with AI",
   location: "San Francisco Bay Area",
   email: "cwhogg@gmail.com",
   linkedin: "linkedin.com/in/cwhogg",

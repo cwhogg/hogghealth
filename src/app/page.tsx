@@ -145,7 +145,7 @@ export default function Home() {
               Chris Hogg
             </h1>
             <p className="font-subhead italic text-body text-base sm:text-lg mb-3">
-              Healthcare founder, operator, product and data geek, now building with AI
+              Healthcare founder, operator, product, partnerships and data geek, now building  with AI
             </p>
             <p className="font-serif text-body text-sm leading-relaxed max-w-2xl">
               Founder and operator in digital health and virtual care since
