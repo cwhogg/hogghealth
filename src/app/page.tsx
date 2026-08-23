@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ProjectCard } from "@/components/ProjectCard";
 import { ProjectVisual } from "@/components/ProjectVisual";
 import { PharmaLogos, DigitalHealthLogos } from "@/components/CompanyLogos";
+import { DownloadPdfButton } from "@/components/DownloadPdfButton";
 
 const projects = [
   {
@@ -161,6 +162,9 @@ export default function Home() {
               virtual care providers to increase patient access to specialty
               and subspecialty care.
             </p>
+            <div className="mt-5">
+              <DownloadPdfButton />
+            </div>
           </div>
         </div>
       </section>
