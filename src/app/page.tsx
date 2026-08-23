@@ -107,7 +107,7 @@ const experience = [
     company: "Propeller Health",
     role: "COO, CCO & Head of Product",
     period: "2014 – 2020",
-    description: "Digital therapeutics for asthma and COPD. Scaled product, commercial operations, and pharma partnerships. 7 patents",
+    description: "Digital therapeutics for asthma and COPD. Scaled product, commercial operations, and pharma partnerships (GSK, AZ, Novartis, Boehringer, Chiesi). 7 patents",
     exit: "Acquired by ResMed",
   },
   {
