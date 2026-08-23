@@ -257,7 +257,7 @@ export default function Home() {
 
           {/* Partnering with Pharma */}
           <div className="card p-5 sm:p-6 flex flex-col">
-            <h3 className="font-headline text-lg text-foreground mb-2">Partnering with Pharma</h3>
+            <h3 className="font-headline text-lg text-foreground mb-2">Partnering with Life Sciences</h3>
             <p className="font-serif text-body text-[0.8125rem] leading-relaxed mb-4">
               Structuring partnerships between life science companies and innovative healthcare startups.
             </p>
