@@ -163,7 +163,7 @@ export default function Home() {
           <div className="card p-5 sm:p-6 flex flex-col">
             <h3 className="font-headline text-lg text-foreground mb-2">Data Products (now with AI)</h3>
             <p className="font-serif text-body text-[0.8125rem] leading-relaxed mb-4">
-              Designing and building data products that turn data into patient insight and proactive care.
+              Designing and building patient and HCP facing products that turn data into patient insight and engaging, proactive care.
             </p>
             <div className="space-y-3">
               <div className="border border-rule rounded-sm overflow-hidden">
