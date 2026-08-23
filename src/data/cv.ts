@@ -229,6 +229,39 @@ export const patents: Patent[] = [
   },
 ];
 
+export type Publication = {
+  title: string;
+  authors: string;
+  journal: string;
+  year: string;
+  doi: string;
+  pmid: string;
+  url: string;
+};
+
+export const publications: Publication[] = [
+  {
+    title:
+      "Identifying impacts of air pollution on subacute asthma symptoms using digital medication sensors",
+    authors: "Su JG, Barrett MA, Combs V, et al.",
+    journal: "International Journal of Epidemiology",
+    year: "2022",
+    doi: "10.1093/ije/dyab187",
+    pmid: "34664072",
+    url: "https://pubmed.ncbi.nlm.nih.gov/34664072/",
+  },
+  {
+    title:
+      "Feasibility of Deploying Inhaler Sensors to Identify the Impacts of Environmental Triggers and Built Environment Factors on Asthma Short-Acting Bronchodilator Use",
+    authors: "Su JG, Barrett MA, Henderson K, et al.",
+    journal: "Environmental Health Perspectives",
+    year: "2017",
+    doi: "10.1289/EHP266",
+    pmid: "27340894",
+    url: "https://pubmed.ncbi.nlm.nih.gov/27340894/",
+  },
+];
+
 export type Project = {
   category: string;
   name: string;

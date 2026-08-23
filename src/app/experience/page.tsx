@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { experience, education, patents } from "@/data/cv";
+import { experience, education, patents, publications } from "@/data/cv";
 
 export const metadata: Metadata = {
   title: "Experience — Chris Hogg | HoggHealth Consulting",
@@ -133,6 +133,34 @@ export default function ExperiencePage() {
                 {patent.date}
               </span>
             </div>
+          ))}
+        </div>
+      </section>
+
+      <hr className="rule max-w-[1080px] mx-auto" />
+
+      {/* Publications */}
+      <section className="max-w-[1080px] mx-auto px-4 sm:px-8 py-10 sm:py-14">
+        <div className="section-label mb-8">Publications ({publications.length})</div>
+        <div className="space-y-4">
+          {publications.map((pub, i) => (
+            <a
+              key={i}
+              href={pub.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-hover p-5 flex flex-col gap-1"
+            >
+              <h3 className="font-sans text-sm font-medium text-foreground leading-snug">
+                {pub.title}
+              </h3>
+              <p className="font-serif italic text-xs text-body">
+                {pub.authors} {pub.journal}. {pub.year}.
+              </p>
+              <p className="font-sans text-[0.6875rem] text-muted">
+                PMID: {pub.pmid} · DOI: {pub.doi}
+              </p>
+            </a>
           ))}
         </div>
       </section>

@@ -7,7 +7,14 @@ import {
   Font,
   StyleSheet,
 } from "@react-pdf/renderer";
-import { experience, education, patents, projects, bio } from "@/data/cv";
+import {
+  experience,
+  education,
+  patents,
+  publications,
+  projects,
+  bio,
+} from "@/data/cv";
 
 Font.register({
   family: "Playfair Display",
@@ -239,6 +246,29 @@ const styles = StyleSheet.create({
     width: 90,
     textAlign: "right",
   },
+  pubRow: {
+    marginBottom: 7,
+  },
+  pubTitle: {
+    fontFamily: "DM Sans",
+    fontWeight: 700,
+    fontSize: 8.5,
+    color: color.foreground,
+    lineHeight: 1.35,
+  },
+  pubMeta: {
+    fontFamily: "Lora",
+    fontStyle: "italic",
+    fontSize: 7.5,
+    color: color.body,
+    marginTop: 1,
+  },
+  pubIds: {
+    fontFamily: "DM Sans",
+    fontSize: 6.5,
+    color: color.muted,
+    marginTop: 1,
+  },
   projectRow: {
     marginBottom: 7,
   },
@@ -421,6 +451,22 @@ export function CVDocument() {
             ))}
           </View>
         </View>
+
+        <Text style={[styles.sectionLabel, { marginTop: 14 }]}>
+          Publications ({publications.length})
+        </Text>
+        <View style={styles.rule} />
+        {publications.map((pub, i) => (
+          <View key={i} style={styles.pubRow} wrap={false}>
+            <Text style={styles.pubTitle}>{pub.title}</Text>
+            <Text style={styles.pubMeta}>
+              {pub.authors} {pub.journal}. {pub.year}.
+            </Text>
+            <Text style={styles.pubIds}>
+              PMID: {pub.pmid} · DOI: {pub.doi}
+            </Text>
+          </View>
+        ))}
 
         <Text style={[styles.sectionLabel, { marginTop: 14 }]}>
           Independent AI Projects
