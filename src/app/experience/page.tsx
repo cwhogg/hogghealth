@@ -39,7 +39,7 @@ const experience = [
         dates: "2024 – 2025",
       },
     ],
-    location: "San Francisco Bay Area",
+    location: "Chicago, IL",
     description:
       "Developed and implemented new life science commercial strategy and executed GTM. Negotiated, signed, and implemented partnerships with:",
     bullets: [
