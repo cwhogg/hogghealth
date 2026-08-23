@@ -1,5 +1,6 @@
 import type { NextRequest } from "next/server";
 import { recordEvent, type AnalyticsEventType } from "@/lib/analytics";
+import { OWNER_COOKIE } from "@/lib/session";
 
 const ALLOWED_TYPES: AnalyticsEventType[] = ["pageview", "click", "duration"];
 const MAX_BODY_LENGTH = 4000;
@@ -11,6 +12,10 @@ function clip(value: unknown, max = MAX_STRING_LENGTH): string | undefined {
 }
 
 export async function POST(request: NextRequest) {
+  if (request.cookies.get(OWNER_COOKIE)?.value === "1") {
+    return new Response(null, { status: 204 });
+  }
+
   const text = await request.text();
   if (text.length === 0 || text.length > MAX_BODY_LENGTH) {
     return new Response(null, { status: 204 });

@@ -42,3 +42,17 @@ export const ADMIN_SESSION_COOKIE_OPTIONS = {
   path: "/",
   maxAge: SESSION_MAX_AGE_SECONDS,
 };
+
+// Marks this browser as the site owner's so analytics stops counting it.
+// Kept separate from the session cookie and given a much longer lifetime
+// so the exclusion survives session expiry and logout.
+export const OWNER_COOKIE = "hh_owner";
+const OWNER_MAX_AGE_SECONDS = 60 * 60 * 24 * 400; // ~400 days, the browser cap
+
+export const OWNER_COOKIE_OPTIONS = {
+  httpOnly: true as const,
+  secure: process.env.NODE_ENV === "production",
+  sameSite: "lax" as const,
+  path: "/",
+  maxAge: OWNER_MAX_AGE_SECONDS,
+};

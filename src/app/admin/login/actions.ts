@@ -6,6 +6,8 @@ import {
   ADMIN_SESSION_COOKIE,
   ADMIN_SESSION_COOKIE_OPTIONS,
   encryptAdminSession,
+  OWNER_COOKIE,
+  OWNER_COOKIE_OPTIONS,
 } from "@/lib/session";
 
 export type LoginState = { error?: string } | undefined;
@@ -30,6 +32,7 @@ export async function login(
   const token = await encryptAdminSession();
   const cookieStore = await cookies();
   cookieStore.set(ADMIN_SESSION_COOKIE, token, ADMIN_SESSION_COOKIE_OPTIONS);
+  cookieStore.set(OWNER_COOKIE, "1", OWNER_COOKIE_OPTIONS);
 
   redirect("/admin");
 }
