@@ -56,7 +56,7 @@ const experience = [
         dates: "Aug 2021 – Dec 2024",
       },
     ],
-    location: "California",
+    location: "Fully Remote Team",
     exit: "Sold to Starlight",
     description:
       "Connected health and data-driven approach to managing chronic disease. Built a virtual-first primary care clinic focused on people with common chronic conditions, using remote monitoring and proactive interventions to keep patients healthier between visits. Funded by a16z, CRV, and Rock Health. Led the company from founding through sale to Starlight Health.",
@@ -73,7 +73,7 @@ const experience = [
         dates: "Jul 2014 – Jan 2018",
       },
     ],
-    location: "San Francisco Bay Area",
+    location: "Madison, WI",
     exit: "Acquired by ResMed",
     description:
       "Joined as COO and Head of Product to lead the San Francisco office, building out data science, design, product, and implementation for a digital therapeutic platform for asthma and COPD. Shifted to CCO to focus on the company's most critical problems — commercial strategy, pharmaceutical and medtech partnerships, payer and health system sales, clinical/medical affairs, and data analytics. Named inventor on 7 patents in respiratory disease monitoring and health data systems. Grew the company from early-stage to acquisition by ResMed.",
